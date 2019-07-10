@@ -1,0 +1,24 @@
+
+#tabs {}
+#tabs #rich-content-editor-tab {}
+#tabs #html-editor-tab {}
+#tabs #markdown-editor-tab {}
+
+textarea#markdown-editor {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 300px;
+  font-family: monospace;
+}
+
+.buttons {
+  position: relative;
+  z-index: 1;
+}
+.buttons a {
+  padding-top: 8px;
+}
+.buttons :global(a.rte_switch_views_link),
+.buttons :global(a.switch_views) {
+  display: none !important;
+}
